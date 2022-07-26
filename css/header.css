@@ -83,7 +83,7 @@
     text-transform: capitalize;
     transition: all .5s ease;
 }
-.header__menu-link--active {
+.header__menu-item--active .header__menu-link {
     opacity: 1;
     color: #1434E1;
 }

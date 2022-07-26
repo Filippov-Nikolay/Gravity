@@ -37,7 +37,7 @@ document.querySelector('.work__about-items').click();
 
 let burgerMenu = document.querySelector('.burger-menu'),
     headerMenu = document.querySelector('.header__wrapper-menu'),
-    headerMenuLink = document.querySelectorAll('.header__menu-link');
+    headerMenuitem = document.querySelectorAll('.header__menu-item');
 burgerMenu.addEventListener('click', function(e) {
     if(burgerMenu.classList.toggle('burger-menu--active')) {
         headerMenu.classList.add('header__wrapper-menu--active');
@@ -45,14 +45,14 @@ burgerMenu.addEventListener('click', function(e) {
         headerMenu.classList.remove('header__wrapper-menu--active');
     }
 });
-headerMenuLink.forEach(link => {
-    link.addEventListener('click', function(e) {
-        headerMenuLink.forEach(link => {
-            link.classList.remove('header__menu-link--active');
+headerMenuitem.forEach(item => {
+    item.addEventListener('click', function(e) {
+        headerMenuitem.forEach(item => {
+            item.classList.remove('header__menu-item--active');
         });
-        link.classList.add('header__menu-link--active');
+        item.classList.add('header__menu-item--active');
         headerMenu.classList.remove('header__wrapper-menu--active');
         burgerMenu.classList.remove('burger-menu--active');
     });
 });
-document.querySelector('.header__menu-link').click();
+document.querySelector('.header__menu-item').click();

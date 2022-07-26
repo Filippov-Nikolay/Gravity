@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Roboto&display=swap');
+@import url('slick.css');
+@import url('normalize.css');
+@import url('header.css');
+@import url('section.css');
+@import url('footer.css');
+@import url('mobile.css');
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F4F4F4;
+}

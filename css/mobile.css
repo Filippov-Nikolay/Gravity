@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1140px;
+
+        /* background-color: red; */
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	
+        /* background-color: green; */
+    }
+
+	/* header */
+	.header__content {
+		max-width: 440px;
+	}
+
+	/* features */
+	.features__text {
+		position: relative;
+		padding: 15px;
+		background-color: #f4f4f4;
+	}
+
+
+	/* work */
+	.work__wrapper {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+
+        /* background-color: purple; */
+	}
+
+	/* header */
+	.header__content {
+		max-width: 305px;
+	}
+
+	/* work */
+	.work__offer {
+		flex-direction: column;
+    	row-gap: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 540px;
+
+        /* background-color: orange; */
+	}
+
+	.big-title {
+		font-size: 32px;
+	}
+
+	/* header */
+	.header__placeholder-link {
+		left: -15px;
+		width: 230px;
+		height: 170px;
+	}
+
+	/* about */
+	.section__wrapper {
+		flex-direction: column-reverse;
+		align-items: center;
+		row-gap: 45px;
+	}
+
+	/* testimonials */
+	.testimonials {
+		height: 115vh;
+	}
+	.slick-initialized .slick-slide {
+		flex-direction: column;
+		height: 100vh;
+	}
+	.testimonials__bit-title {
+		padding-bottom: 35px;
+	}
+	.testimonials__user-info {
+		padding-bottom: 25px;
+	}
+	.testimonials .slick-arrow {
+		bottom: -100px;
+	}
+
+	/* clients */
+	.clients__wrapper {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.clients__content-about {
+		column-gap: 55px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		padding: 0 10px;
+		width: 90%;
+
+        /* background-color: pink; */
+	}
+
+	/* header */
+	.header {
+		min-height: 135vh;
+	}
+	.header__content {
+		position: relative;
+		z-index: 2;
+	}
+	.header__offer {
+		color: #fff;
+	}
+	.header__placeholder {
+		width: 100%;
+	}
+	.header__placeholder-link {
+		bottom: -260px;
+		right: auto;
+	}
+
+	/* services */
+	.services__wrapper {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.services__menu {
+		row-gap: 15px;
+	}
+
+	/* work */
+	.work__menu {
+		flex-direction: column;
+		row-gap: 15px;
+	}
+
+	/* clients */
+	.clients__content-about {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 45px;
+	}
+}

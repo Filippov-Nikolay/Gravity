@@ -116,11 +116,12 @@
     letter-spacing: 0.3em;
     text-transform: uppercase;
     background-color: #3726F2;
-    border: 1px solid #190ab6;
+    border: 1px solid #3726F2;
     transition: all .5s ease;
 }
 .button:hover {
     background-color: #190ab6;
+    border: 1px solid #190ab6;
 }
 .button:focus {
     color: #190ab6;
@@ -149,6 +150,10 @@
     width: 400px;
     height: 310px;
     background: url('../img/header/video.png') no-repeat right;
+    transition: all .5s ease;
+}
+.header__placeholder-link:hover {
+    transform: scale(1.1);
 }
 .header__placeholder-link::after {
     content: '';
